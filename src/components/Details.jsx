@@ -1,7 +1,5 @@
-import { useContext } from 'react';
 import '../assets/styles/Details.css';
-import ShowCards from './ShowsCards';
-import Collapsible from 'react-collapsible';
+
 export default function Details(props) {
   console.log(props);
   const handleShowDetails = (id) => {
